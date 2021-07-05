@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#icon").click(function () {
+          $("ul").toggleClass("show");
+        });
+      });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.2.2/circle-progress.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/animation.css" />
+    <link rel="stylesheet" href="css/utilis.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <title>My Portfolio</title>
+    <link rel="icon" href="/imgs/my bitmoji.png" type="image/icon type" />
+  </head>
+
+  <body>
+    <div class="nav main-color">
+      <div class="logo">
+        <a href="#main"><img src="/imgs/logo.png" /></a>
+      </div>
+      <label id="icon">
+        <i class="fas fa-bars"></i>
+      </label>
+      <ul class="h3">
+        <li>
+          <a href="#main">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+    <div class="side main-color">
+      <div class="icon">
+        <img src="./imgs/email.png" alt="Email" abbr="Email" />
+        <img src="./imgs/linkedin.png" alt="linkedin" abbr="Linkedin" />
+        <img src="./imgs/insta.png" alt="Instagram" abbr="Instagram" />
+        <img src="./imgs/snap.png" alt="Snapchat" abbr="Snapchat" />
+      </div>
+    </div>
+    <div class="main main-color align" id="main">
+      <div class="textarea h1 margintb2">
+        <p class="h2">Welcome to MY Portfolio</p>
+        Awaits Nothing
+        <br />
+        less than Best.
+        <button class="btn">Get Started</button>
+      </div>
+      <div class="imagearea">
+        <img src="./imgs/dp.png" alt="Display picture" />
+      </div>
+    </div>
+    <div class="about align flexcolmn main-color">
+      <div class="aboutcontent flexrow">
+        <div class="left">
+          <img src="./imgs/Artboard-66.jpg" />
+        </div>
+        <div class="right" id="about">
+          <p class="h1">ABOUT ME</p>
+          <p class="h2">Hey Visitor,</p>
+
+          <p class="h3 margintb">
+            <br />
+            This is Ankur, 20, born and raised in Aligarh, Uttar Pradesh. I
+            completed my schooling from Prestigious Aligarh Muslim University,
+            Aligarh. And now persuing my Engineering degree in Electronics and
+            Instrumentation with an aggregate of 7.2 SGPA from Ajay Kumar
+            Engineering College, Ghaziabaad.
+            <br /><br />
+            I’m passionate about music (specially voilin and guitar),
+            photography, poetry, coding and military technologies, and I’ve been
+            looking forward to do something in each of these field in future or
+            may be opt one as a career.
+            <br /><br />
+            So, By day, I’m a College Student who loves to do web development
+            and code. By Night/Weekend I’m a freelancer Graphic Designer,
+            Photographer and Content Writer.
+            <br /><br />
+            That’s All Folks !!
+            <br /><br />
+            <button class="btn" onclick="">
+              <a class="resume" href="Resume.docx" download=> Resume</a>
+            </button>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="middle align secondary-color flexrow">
+      <div class="skills align flexcolmn margintb" id="skills">
+        <p class="h1">Skills</p>
+        <div class="skillset flexrow">
+          <div class="skill1 flexcolmn square">
+            <p class="h2">FrontEnd Developer</p>
+            <br /><br />
+            <p class="h3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, hic
+              asperiores voluptates totam sit itaque voluptas nesciunt incidunt
+              placeat unde, vitae, tenetur nisi similique aliquid.
+            </p>
+          </div>
+
+          <div class="skill1 flexcolmn square">
+            <p class="h2">UI/UX Designer</p>
+            <br /><br />
+            <p class="h3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, hic
+              asperiores voluptates totam sit itaque voluptas nesciunt incidunt
+              placeat unde, vitae, tenetur nisi similique aliquid.
+            </p>
+          </div>
+
+          <div class="skill1 flexcolmn square">
+            <p class="h2">Python Programmer</p>
+            <br /><br />
+            <p class="h3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, hic
+              asperiores voluptates totam sit itaque voluptas nesciunt incidunt
+              placeat unde, vitae, tenetur nisi similique aliquid.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="progressbar flexrow margintb">
+        <div class="wrapper">
+          <div class="card">
+            <div class="circle">
+              <div class="bar"></div>
+              <div class="box"><span>70%</span></div>
+            </div>
+            <div class="h3 margintb">HTML & CSS</div>
+          </div>
+
+          <div class="card js">
+            <div class="circle">
+              <div class="bar"></div>
+              <div class="box"><span>50%</span></div>
+            </div>
+            <div class="h3 margintb">JavaScript</div>
+          </div>
+
+          <div class="card react">
+            <div class="circle">
+              <div class="bar"></div>
+              <div class="box"><span>40%</span></div>
+            </div>
+            <div class="h3 margintb">ReactJS</div>
+          </div>
+
+          <div class="card ux">
+            <div class="circle">
+              <div class="bar"></div>
+              <div class="box"><span>80%</span></div>
+            </div>
+            <div class="h3 margintb">UI/UX</div>
+          </div>
+
+          <div class="card python">
+            <div class="circle">
+              <div class="bar"></div>
+              <div class="box"><span>50%</span></div>
+            </div>
+            <div class="h3 margintb">Python</div>
+          </div>
+
+          <div class="card adobe">
+            <div class="circle">
+              <div class="bar"></div>
+              <div class="box"><span>80%</span></div>
+            </div>
+            <div class="h3 margintb">Adobe Creative Suite</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="gallery main-color align flexcolmn">
+      <p class="h1">Projects</p>
+      <div class="content flexrow margintb" id="projects">
+        <div class="box main-color flexrow">
+          Coming Soon
+          <!-- <img src="/imgs/nike.png" /> -->
+        </div>
+        <div class="box main-color flexrow">
+          Coming Soon
+          <!-- <img src="/imgs/peace.png" /> -->
+        </div>
+        <div class="box main-color flexrow">
+          Coming Soon
+          <!-- <img src="/imgs/Sneakers.png" /> -->
+        </div>
+        <div class="box main-color flexrow">
+          Coming Soon
+          <!-- <img src="/imgs/Girl In the Hat.png" /> -->
+        </div>
+      </div>
+
+      <button class="btn margintb">View More</button>
+    </div>
+    <div class="footer secondary-color flexrow align">
+      Designed and Code With ❤ by
+      <span> <img class="copywrite" src="/imgs/logo.png" /></span>
+    </div>
+    <script>
+      let options = {
+        startAngle: -1.55,
+        size: 100,
+        value: 0.7,
+        fill: { gradient: ["#a445b2", "#fa4299"] },
+      };
+      $(".circle .bar")
+        .circleProgress(options)
+        .on("circle-animation-progress", function (event, progress, stepValue) {
+          $(this)
+            .parent()
+            .find("span")
+            .text(String(stepValue.toFixed(2).substr(2)) + "%");
+        });
+      $(".js .bar").circleProgress({
+        value: 0.5,
+      });
+      $(".react .bar").circleProgress({
+        value: 0.4,
+      });
+      $(".ux .bar").circleProgress({
+        value: 0.8,
+      });
+      $(".python .bar").circleProgress({
+        value: 0.5,
+      });
+      $(".adobe .bar").circleProgress({
+        value: 0.8,
+      });
+    </script>
+  </body>
+</html>
