@@ -88,7 +88,7 @@ html {
 .main {
   display: flex;
   min-height: 80vh;
-  background-image: url(/imgs/lp.png);
+  background-image: url(./imgs/lp.png);
   background-position: inherit;
   flex-direction: row;
   justify-content: space-around;
