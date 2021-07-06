@@ -54,5 +54,38 @@
   }
 }
 
-@media (max-width: 620px) {
+@media (max-width: 720px) {
+  @media (max-width: 720px) {
+  .side {
+    width: 2.8rem;
+  }
+  .main {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .imagearea {
+    width: 50%;
+    margin-top: 50px;
+  }
+  .imagearea img {
+    width: 200px;
+  }
+  .icons img {
+    width: 28px;
+    height: 28px;
+  }
+  .textarea {
+    margin-top: 10px;
+    width: 50%;
+  }
+  .h1 {
+    font-size: 2.5rem;
+  }
+  .h2 {
+    font-size: 0.7rem;
+  }
+  .h3 {
+    font-size: 0.6rem;
+  }
 }
