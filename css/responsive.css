@@ -8,7 +8,8 @@
     width: 3.2rem;
     height: 100vmax;
   }
-  .main {
+  .align {
+    width: 96.6vw;
   }
   .nav #icon {
     display: block;
