@@ -143,11 +143,13 @@ html {
   flex-wrap: wrap;
 }
 .middle {
+  background-image: url(../imgs/lp.png);
+  background-position: inherit;
   align-content: center;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  background-position: initial;
+ 
 }
 .progressbar {
   width: 80%;
@@ -185,12 +187,14 @@ html {
   width: 200px;
 }
 .footer {
+  background-image: url(../imgs/lp.png);
+  background-position: inherit;
   justify-content: center;
   align-items: center;
   color: #ffffff;
   background-repeat: no-repeat;
   background-size: auto;
-  background-position: center;
+ 
 }
 .about {
   justify-content: center;
